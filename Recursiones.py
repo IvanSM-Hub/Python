@@ -6,4 +6,6 @@ def fibonacci(i):
     elif i==1:
         return 1
     else:
-        return fibonacci(i-1)+fibonacci(i-2) 
+        return fibonacci(i-1)+fibonacci(i-2)
+
+print(fibonacci(4))
